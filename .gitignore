@@ -1,0 +1,74 @@
+# Visual Studio files
+.vs/
+*.sln
+*.suo
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.opendb
+
+# Visual Studio Code files
+.vscode/*
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Unreal Engine generated files
+Saved/
+Intermediate/
+DerivedDataCache/
+Build/
+Binaries/
+.vscode/
+*.VC.db
+*.opensdf
+*.opendb
+*.sdf
+*.sln
+*.suo
+*.xcodeproj
+*.xcworkspace
+
+# Asset files
+Content/StarterContent/
+Content/Collections/
+Content/Developers/
+
+# Large media files
+*.uasset
+*.umap
+*.upk
+*.udk
+*.ubulk
+
+# Debugging files
+*.pdb
+
+# Don't ignore these files
+!Build/
+!Build/*.ico
+!Build/*.png
+!Build/*.exe
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Crash logs
+Crashes/
+
+# Config files that shouldn't be ignored
+!DefaultEngine.ini
+!DefaultGame.ini
+!DefaultInput.ini
+
+# Additional UE specific
+*.uproject.DotSettings.user
