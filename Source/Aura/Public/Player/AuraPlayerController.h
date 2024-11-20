@@ -25,9 +25,11 @@ protected:
 	virtual void SetupInputComponent() override;
 	
 private:
+	// 입력 매핑: 어떤 키가 어떤 액션으로 연결되는지 정의
 	UPROPERTY(EditAnywhere,Category="Input")
 	TObjectPtr<UInputMappingContext> AuraContext;
-	
+
+	// 입력 액션: 어떤 종류의 입력인지 정의 (예: 이동, 점프 등)
 	UPROPERTY(EditAnywhere, Category="Input")
 	TObjectPtr<UInputAction> MoveAction;
 	
